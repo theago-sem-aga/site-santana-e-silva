@@ -401,11 +401,11 @@ header.services{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url('../site/image/header_image_service.png');
+    background-image: url('./image/header_image_service.png');
 }
 
 header.schedules{
-    background-image: url('../site/image/header_image.png');
+    background-image: url('./image/header_image.png');
 }
 
 .header_subcontent_services{
@@ -678,7 +678,7 @@ header.consultorias{
     }
 
     header.index{
-        background-image: url('../site/image/header_image_tablet.png');
+        background-image: url('./image/header_image_tablet.png');
     }
 
     header h1{
@@ -978,11 +978,11 @@ header.consultorias{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url('../site/image/header_image_service_tablet.png');
+        background-image: url('./image/header_image_service_tablet.png');
     }
 
     header.schedules{
-        background-image: url('../site/image/header_image.png');
+        background-image: url('./image/header_image.png');
     }
 
     .header_subcontent_services{
@@ -1505,11 +1505,11 @@ header.index{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url('../site/image/header_image_service_cellphone.png');
+        background-image: url('./image/header_image_service_cellphone.png');
     }
 
     header.schedules{
-        background-image: url('../site/image/header_image.png');
+        background-image: url('./image/header_image.png');
     }
 
     .header_subcontent_services{
