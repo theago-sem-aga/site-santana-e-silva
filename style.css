@@ -1,0 +1,1701 @@
+/* ============================================================
+   ESTILOS GLOBAIS
+   Aplicados em todas as páginas e todos os tamanhos de tela
+   ============================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+body{   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+/* --- Navegação (global) --- */
+
+nav{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B1520;
+}
+
+.navigation{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.logo{
+    height: 65%;
+    width: auto;
+}
+
+ul{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+li a{
+    font-size: 14px;
+}
+
+/* --- Rodapé (global) --- */
+
+footer{
+    width: 100vw;
+    height: 55vh;
+    padding: 10vh 20vw 10vh 20vw;
+    box-sizing: border-box;
+    background-color: #F7F4EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_header{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_header img{
+    width: 70px;
+    height: auto;    
+}
+
+.contact_information{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_information_div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ============================================================
+   INDEX.HTML — Estilos desktop
+   ============================================================ */
+
+/* --- Header (index) --- */
+
+header.index{
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('./image/header_image.png');
+}
+
+header h1{
+    font-size: 80px;
+    font-weight: 20;
+}
+
+header h2{
+    font-size: 32px;
+    font-weight: 100;
+}
+
+header h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.header_content{
+    width: 80%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_subcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* --- Seção Missão, Visão e Valores (index) --- */
+
+.section_mvv{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5% 0 5% 0;
+    background-color: #F7F4EB;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_subsection_mvv{
+    width: 80%;
+    height: auto;
+}
+
+.text_subsection_mvv h1{
+    font-family: 'Verdana', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.text_subsection_mvv_button{
+    width: 230px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 60px;
+    border: none;
+    background-color: #0B1520;
+}
+
+.text_subsection_mvv_button_white{
+    width: 230px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 60px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.text_subsection_mvv_button_white a{
+    font-size: 18px;
+    color: #0B1520;
+}
+
+.text_subsection_mvv_button a{
+    font-size: 18px;    
+}
+
+.mvv_paragraphs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mvv_paragraphs_div{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mvv_paragraphs_div p{
+    text-align: justify;
+    font-size: 23px;
+    font-weight: 20;
+    color: black;
+}
+
+/* --- Seção Ofertas (index) --- */
+
+.section_offering{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10% 0 5% 0;
+    background-color: #0B1520;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_subsection_offering{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offering_paragraphs_div{
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offering_paragraphs_div p{
+    font-size: 34px;
+    font-weight: 20;
+}
+
+.offering_paragraphs_div h1{
+    font-size: 64px;
+    font-weight: 20;
+    color: #FFF0C4;
+}
+
+.offering_paragraphs_div button{
+    width: 120px;
+    height: 55px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 35px;
+    border: none;
+}
+
+.offering_paragraphs_div button a{
+    font-size: 18px;
+    color: #0B1520;
+}
+
+/* --- Seção Testemunhos (index) --- */
+
+.section_testimonials{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5% 0 5% 0;
+    background-color: #FFFFFF;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials_div{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials_title{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonials_title h1{
+    font-size: 40px;
+    font-weight: 20;
+    color: #000000;
+    text-align: center;
+}
+
+.testimonials_title h2{
+    font-size: 22px;
+    font-weight: 20;
+    color: #000000;
+    text-align: center;
+}
+
+.carousel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slides{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5% 12% 0% 12%;
+    margin-top: 35px;
+    box-sizing: border-box;
+    background-color: #F6F6F6;
+}
+
+.slides p{
+    font-size: 32px;
+    font-weight: 20;
+    color: #000000;
+    text-align: center;
+}
+
+.slides h1{
+    font-size: 35px;
+    font-weight: 20;
+    color: #000000;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.slideshow_navigation{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slideshow_navigation button{
+    border: none;
+    margin: 5px;
+}
+
+.slideshow_navigation a{
+    margin: 0 5px;
+}
+
+.slide{
+    display: none;
+}
+
+.slide.ativo{
+    display: block;
+}
+
+
+/* ============================================================
+   SERVICOS.HTML — Estilos desktop
+   ============================================================ */
+
+/* --- Header (serviços) --- */
+
+header.services{
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0 0 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('../site/image/header_image_service.png');
+}
+
+header.schedules{
+    background-image: url('../site/image/header_image.png');
+}
+
+.header_subcontent_services{
+    width: 70%;
+    height: auto;
+}
+
+/* --- Seção Estatísticas (serviços) --- */
+
+.section_statitics{
+    width: 100vw;
+    height: auto;
+    background-color: #F7F4EB;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5vh 0 5vh 0;
+}
+
+.statitics_content{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.statistic{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistic h1{
+    font-size: 150px;
+    font-weight: 20;
+    color: #31110F;
+}
+
+.statistic p{
+    font-size: 22px;
+    font-weight: 20;
+    color: #31110F;
+}
+
+/* --- Seção Serviços (serviços) --- */
+
+.section_services{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5vh 0 5vh 0;
+    background-color: #0B1520;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+}
+
+.section_services hr{
+    width: 80%;
+    height: 2px;
+    background-color: #F7F4EB;
+    border: none;
+    margin: 10px 0 10px 0;
+}
+
+.services_header{
+    width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.services_header h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #F7F4EB;
+}
+
+.services_content{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.services_content_header{
+    width: 40%;
+    height: 100%;
+}
+
+.services_content_paragraph{
+    width: 30%;
+    height: 100%;
+}
+
+.services_content_paragraph p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 20;
+    line-height: 1.3;
+}
+
+/* ============================================================
+   CONSULTORIAS.HTML — Estilos desktop
+   ============================================================ */
+
+/* --- Header (consultorias) --- */
+
+header.consultorias{
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(./image/header_consultorias.png);
+}
+
+.header_content_consultorias{
+    width: 80%;
+    height: 25%;
+    box-sizing: border-box;
+    padding: 0 0 0 5vw;
+}
+
+.our_services_section{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10vh 5vw 10vh 5vw;
+    background-color: #0B1520;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+}
+
+.step{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 5vw 0 5vw;
+    margin-top: 2vh
+}
+
+.our_services_content hr{
+    margin: 3vh 0 3vh 0;
+}
+
+.step_number{
+    width: 40%;
+    height: auto;
+}
+
+.step_number h1{
+    font-size: 250px;
+    font-weight: lighter;
+    color: #F7F4EB;
+}
+
+.step_paragraphs{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5vh 0 5vh 0;
+}
+
+.step_paragraphs h3{
+    font-size: 22px;
+    font-weight: lighter;
+    color: #F7F4EB;
+}
+
+.step_paragraphs p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #F7F4EB;
+    margin-top: 20px;
+}
+
+/* ============================================================
+   RESPONSIVO — Tablet (max-width: 1024px)
+   ============================================================ */
+
+@media screen and (max-width: 1024px) {
+
+    /* --- Estilos globais --- */
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+
+    body{   
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    /* --- Navegação --- */
+
+    nav{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0B1520;
+    }
+
+    .navigation{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;    
+    }
+
+    .logo{
+        height: 65%;
+        width: auto;
+    }
+
+    ul{
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+    }
+
+    li a{
+        font-size: 18px;
+    }
+
+    /* --- Header (index) --- */
+
+    header{
+        width: 100vw;
+        height: 95vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    header.index{
+        background-image: url('../site/image/header_image_tablet.png');
+    }
+
+    header h1{
+        font-size: 80px;
+        font-weight: 20;
+    }
+
+    header h2{
+        font-size: 32px;
+        font-weight: 100;
+    }
+
+    header h3{
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    .header_content{
+        width: 80%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header_subcontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* --- Seção Missão, Visão e Valores (index) --- */
+
+    .section_mvv{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 5% 0 5% 0;
+        background-color: #F7F4EB;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text_subsection_mvv{
+        width: 80%;
+        height: auto;
+    }
+
+    .text_subsection_mvv h1{
+        font-family: 'Verdana', sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+        margin-bottom: 30px;
+    }
+
+    .text_subsection_mvv_button{
+        width: 230px;
+        height: 50px;
+        margin-top: 30px;
+        border-radius: 60px;
+        border: none;
+        background-color: #0B1520;
+    }
+
+    .text_subsection_mvv_button a{
+        font-size: 18px;    
+    }
+
+    .mvv_paragraphs{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mvv_paragraphs_div{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mvv_paragraphs_div p{
+        text-align: justify;
+        font-size: 24px;
+        font-weight: 20;
+        color: black;
+    }
+
+    /* --- Seção Ofertas (index) --- */
+
+    .section_offering{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 10% 0 5% 0;
+        background-color: #0B1520;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text_subsection_offering{
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .offering_paragraphs_div{
+        width: 45%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .offering_paragraphs_div p{
+        font-size: 28px;
+        font-weight: 20;
+    }
+
+    .offering_paragraphs_div h1{
+        font-size: 50px;
+        font-weight: 20;
+        color: #FFF0C4;
+    }
+
+    .offering_paragraphs_div button{
+        width: 120px;
+        height: 55px;
+        margin-top: 50px;
+        background-color: white;
+        border-radius: 35px;
+        border: none;
+    }
+
+    .offering_paragraphs_div button a{
+        font-size: 18px;
+        color: #0B1520;
+    }
+
+    /* --- Seção Testemunhos (index) --- */
+
+    .section_testimonials{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 5% 0 5% 0;
+        background-color: #FFFFFF;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials_div{
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonials_title{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .testimonials_title h1{
+        font-size: 40px;
+        font-weight: 20;
+        color: #000000;
+        text-align: center;
+    }
+
+    .testimonials_title h2{
+        font-size: 26px;
+        font-weight: 20;
+        color: #000000;
+        text-align: center;
+    }
+
+    .carousel{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slides{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 5% 12% 0% 12%;
+        margin-top: 35px;
+        box-sizing: border-box;
+        background-color: #F6F6F6;
+    }
+
+    .slides p{
+        font-size: 28px;
+        font-weight: 20;
+        color: #000000;
+        text-align: center;
+    }
+
+    .slides h1{
+        font-size: 35px;
+        font-weight: 20;
+        color: #000000;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .slideshow_navigation{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .slideshow_navigation button{
+        border: none;
+        margin: 5px;
+    }
+
+    .slideshow_navigation a{
+        margin: 0 5px;
+    }
+
+    .slide{
+        display: none;
+    }
+
+    .slide.ativo{
+        display: block;
+    }
+
+    /* --- Rodapé --- */
+
+    footer{
+        width: 100vw;
+        height: 55vh;
+        padding: 10vh 10vw 10vh 10vw;
+        box-sizing: border-box;
+        background-color: #F7F4EB;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_header{
+        width: 55%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer_header img{
+        width: 70px;
+        height: auto;    
+    }
+
+    .contact_information{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    /* --- Header (serviços) --- */
+
+    header.services{
+        width: 100vw;
+        height: 95vh;
+        background-size: cover;
+        box-sizing: border-box;
+        padding: 0 0 10vh 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url('../site/image/header_image_service_tablet.png');
+    }
+
+    header.schedules{
+        background-image: url('../site/image/header_image.png');
+    }
+
+    .header_subcontent_services{
+        width: 70%;
+        height: auto;
+    }
+
+    /* --- Seção Estatísticas (serviços) --- */
+
+    .section_statitics{
+        width: 100vw;
+        height: auto;
+        background-color: #F7F4EB;
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 5vh 0 5vh 0;
+    }
+
+    .statitics_content{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .statistic{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .statistic h1{
+        font-size: 84px;
+        font-weight: 20;
+        color: #31110F;
+    }
+
+    .statistic p{
+        font-size: 22px;
+        font-weight: 20;
+        color: #31110F;
+    }
+
+    /* --- Seção Serviços (serviços) --- */
+
+    .section_services{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 5vh 0 5vh 0;
+        background-color: #0B1520;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        place-content: center;
+    }
+
+    .section_services hr{
+        width: 80%;
+        height: 2px;
+        background-color: #F7F4EB;
+        border: none;
+        margin: 10px 0 10px 0;
+    }
+
+    .services_header{
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .services_header h1{
+        font-size: 32px;
+        font-weight: 500;
+        color: #F7F4EB;
+    }
+
+    .services_content{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 0 10px 0;
+    }
+
+    .services_content_header{
+        width: 40%;
+        height: 100%;
+    }
+
+    .services_content_paragraph{
+        width: 40%;
+        height: 100%;
+    }
+
+    .services_content_paragraph p{
+        text-align: justify;
+        font-size: 20px;
+        font-weight: 20;
+        line-height: 1.3;
+    }
+
+    /* --- Header (consultorias) --- */
+
+    header.consultorias{
+        width: 100vw;
+        height: 95vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url('./image/header_consultorias_tablet.png');
+    }
+    
+}
+
+
+/* ============================================================
+   RESPONSIVO — Mobile (max-width: 767px)
+   ============================================================ */
+
+@media screen and (max-width: 767px) {
+
+    /* --- Estilos globais --- */
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+
+    body{   
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    /* --- Navegação --- */
+
+    nav{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0B1520;
+    }
+
+    .navigation{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;    
+    }
+
+    .logo{
+        height: 65%;
+        width: auto;
+    }
+
+    ul{
+        width: 60%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+    }
+
+    li a{
+        font-size: 13px;
+    }
+
+    /* --- Header (index) --- */
+
+    header{
+        width: 100vw;
+        height: 75vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+header.index{
+    width: 100vw;
+    height: 75vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('./image/header_image_tablet.png');
+}
+
+    header h1{
+        font-size: 40px;
+        font-weight: 20;
+    }
+
+    header h2{
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    header h3{
+        display: none;
+    }
+
+    .header_content{
+        width: 80%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header_subcontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* --- Seção Missão, Visão e Valores (index) --- */
+
+    .section_mvv{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 5% 0 5% 0;
+        background-color: #F7F4EB;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text_subsection_mvv{
+        width: 80%;
+        height: auto;
+    }
+
+    .text_subsection_mvv h1{
+        font-family: 'Verdana', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+        margin-bottom: 30px;
+    }
+
+    .text_subsection_mvv_button{
+        width: 230px;
+        height: 50px;
+        margin-top: 30px;
+        border-radius: 60px;
+        border: none;
+        background-color: #0B1520;
+    }
+
+    .text_subsection_mvv_button a{
+        font-size: 18px;    
+    }
+
+    .text_subsection_mvv_button_white{
+        width: 230px;
+        height: 45px;
+        margin-top: 30px;
+        border-radius: 60px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    .text_subsection_mvv_button_white a{
+        font-size: 16px;
+        color: #0B1520;
+    }
+
+    .mvv_paragraphs{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mvv_paragraphs_div{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mvv_paragraphs_div p{
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 20;
+        color: black;
+    }
+
+    /* --- Seção Ofertas (index) --- */
+
+    .section_offering{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 10% 0 5% 0;
+        background-color: #0B1520;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text_subsection_offering{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .offering_paragraphs_div{
+        width: 45%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .offering_paragraphs_div p{
+        display: none;
+    }
+
+    .offering_paragraphs_div h1{
+        font-size: 38px;
+        font-weight: 20;
+        color: #FFF0C4;
+    }
+
+    .offering_paragraphs_div button{
+        width: 120px;
+        height: 45px;
+        margin-top: 50px;
+        background-color: white;
+        border-radius: 35px;
+        border: none;
+    }
+
+    .offering_paragraphs_div button a{
+        font-size: 16px;
+        color: #0B1520;
+    }
+
+    /* --- Seção Testemunhos (index) --- */
+
+    .section_testimonials{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 5% 0 5% 0;
+        background-color: #FFFFFF;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials_div{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonials_title{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .testimonials_title h1{
+        font-size: 25px;
+        font-weight: 20;
+        color: #000000;
+        text-align: center;
+    }
+
+    .testimonials_title h2{
+        display: none;
+    }
+
+    .carousel{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slides{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 5% 12% 0% 12%;
+        margin-top: 35px;
+        box-sizing: border-box;
+        background-color: #F6F6F6;
+    }
+
+    .slides p{
+        font-size: 20px;
+        font-weight: 20;
+        color: #000000;
+        text-align: center;
+    }
+
+    .slides h1{
+        font-size: 20px;
+        font-weight: 20;
+        color: #000000;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .slideshow_navigation{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .slideshow_navigation button{
+        border: none;
+        margin: 5px;
+    }
+
+    .slideshow_navigation a{
+        margin: 0 5px;
+    }
+
+    .slide{
+        display: none;
+    }
+
+    .slide.ativo{
+        display: block;
+    }
+
+    /* --- Rodapé --- */
+
+    footer{
+        width: 100vw;
+        height: 55vh;
+        padding: 10vh 10vw 10vh 10vw;
+        box-sizing: border-box;
+        background-color: #F7F4EB;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .footer_header img{
+        width: 70px;
+        height: auto;    
+    }
+
+    .contact_information{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+        /* --- Header (serviços) --- */
+
+    header.services{
+        width: 100vw;
+        height: 70vh;
+        background-size: cover;
+        box-sizing: border-box;
+        padding: 0 0 10vh 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url('../site/image/header_image_service_cellphone.png');
+    }
+
+    header.schedules{
+        background-image: url('../site/image/header_image.png');
+    }
+
+    .header_subcontent_services{
+        width: 70%;
+        height: auto;
+    }
+
+    /* --- Seção Estatísticas (serviços) --- */
+
+    .section_statitics{
+        width: 100vw;
+        height: auto;
+        background-color: #F7F4EB;
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 5vh 0 5vh 0;
+    }
+
+    .statitics_content{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .statistic{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0 10px 0;
+    }
+
+    .statistic h1{
+        font-size: 44px;
+        font-weight: 20;
+        color: #31110F;
+    }
+
+    .statistic p{
+        font-size: 16px;
+        font-weight: 20;
+        color: #31110F;
+    }
+
+    /* --- Seção Serviços (serviços) --- */
+
+    .section_services{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 5vh 0 5vh 0;
+        background-color: #0B1520;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        place-content: center;
+    }
+
+    .section_services hr{
+        width: 80%;
+        background-color: #F7F4EB;
+        border: none;
+        margin: 10px 0 10px 0;
+    }
+
+    .services_header{
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .services_header h1{
+        font-size: 22px;
+        font-weight: 500;
+        color: #F7F4EB;
+    }
+
+    .services_content{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px 0 10px 0;
+    }
+
+    .services_content_header{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .services_content_paragraph{
+        width: 100%;
+        height: 100%;
+    }
+
+    .services_content_paragraph p{
+        text-align: left;
+        font-size: 20px;
+        font-weight: 20;
+        line-height: 1.3;
+    }
+    
+    /* --- Header (consultorias) --- */
+
+    header.consultorias{
+        width: 100vw;
+        height: 70vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url(./image/header_consultorias_cellphone.png);
+    }
+
+    .our_services_section{
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 10vh 5vw 10vh 5vw;
+        background-color: #0B1520;   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        place-content: center;
+    }
+
+    .step{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 5vw 0 5vw;
+        margin-top: 2vh
+    }
+
+    .our_services_content h1{
+        font-size: 22px;
+        font-weight: 500;
+        color: #F7F4EB;
+    }
+
+    .our_services_content hr{
+        margin: 3vh 0 3vh 0;
+    }
+
+    .step_number{
+        width: 40%;
+        height: auto;
+    }
+
+    .step_number h1{
+        font-size: 150px;
+        font-weight: lighter;
+        color: #F7F4EB;
+    }
+
+    .step_paragraphs{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 5vh 0 5vh 0;
+    }
+
+    .step_paragraphs h3{
+        font-size: 22px;
+        font-weight: lighter;
+        color: #F7F4EB;
+    }
+
+    .step_paragraphs p{
+        font-size: 18px;
+        font-weight: lighter;
+        color: #F7F4EB;
+        margin-top: 20px;
+    }
+
+}
