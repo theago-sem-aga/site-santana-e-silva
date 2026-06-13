@@ -1,7 +1,4 @@
-/* ============================================================
-   ESTILOS GLOBAIS
-   Aplicados em todas as páginas e todos os tamanhos de tela
-   ============================================================ */
+/* estilos globais aplicados em todas as páginas */
 
 * {
     margin: 0;
@@ -19,7 +16,7 @@ body{
     margin: 0px;
 }
 
-/* --- Navegação (global) --- */
+/* navegação */
 
 nav{
     width: 100%;
@@ -63,7 +60,7 @@ li a{
     font-size: 14px;
 }
 
-/* --- Rodapé (global) --- */
+/* rodapé */
 
 footer{
     width: 100vw;
@@ -90,6 +87,7 @@ footer{
     height: auto;    
 }
 
+/* três colunas de contato no rodapé */
 .contact_information{
     width: 80%;
     height: auto;
@@ -103,12 +101,18 @@ footer{
     flex-direction: column;
 }
 
+/* slides do carrossel — oculto por padrão, visível com a classe .ativo */
 
-/* ============================================================
-   INDEX.HTML — Estilos desktop
-   ============================================================ */
+.slide{
+    display: none;
+}
 
-/* --- Header (index) --- */
+.slide.ativo{
+    display: block;
+}
+
+
+/* index.html */
 
 header.index{
     width: 100vw;
@@ -135,6 +139,7 @@ header h3{
     font-weight: 100;
 }
 
+/* agrupa título e subtítulo do hero */
 .header_content{
     width: 80%;
     height: 30%;
@@ -146,13 +151,14 @@ header h3{
     justify-content: space-between;
 }
 
+/* linha com subtítulo e data de fundação */
 .header_subcontent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* --- Seção Missão, Visão e Valores (index) --- */
+/* seção missão, visão e valores */
 
 .section_mvv{
     width: 100vw;
@@ -179,6 +185,7 @@ header h3{
     margin-bottom: 30px;
 }
 
+/* botão cta escuro */
 .text_subsection_mvv_button{
     width: 230px;
     height: 50px;
@@ -188,6 +195,7 @@ header h3{
     background-color: #0B1520;
 }
 
+/* botão cta branco (usado em consultorias) */
 .text_subsection_mvv_button_white{
     width: 230px;
     height: 50px;
@@ -206,6 +214,7 @@ header h3{
     font-size: 18px;    
 }
 
+/* linha com os três blocos de mvv */
 .mvv_paragraphs{
     width: 100%;
     height: auto;
@@ -230,7 +239,7 @@ header h3{
     color: black;
 }
 
-/* --- Seção Ofertas (index) --- */
+/* seção de áreas de atuação */
 
 .section_offering{
     width: 100vw;
@@ -243,6 +252,7 @@ header h3{
     align-items: center;
 }
 
+/* label à esquerda e lista de áreas à direita */
 .text_subsection_offering{
     width: 80%;
     height: auto;
@@ -283,7 +293,7 @@ header h3{
     color: #0B1520;
 }
 
-/* --- Seção Testemunhos (index) --- */
+/* seção de depoimentos */
 
 .section_testimonials{
     width: 100vw;
@@ -303,6 +313,7 @@ header h3{
     flex-direction: column;
 }
 
+/* título e subtítulo da seção de depoimentos */
 .testimonials_title{
     height: 140px;
     width: 100%;
@@ -333,6 +344,7 @@ header h3{
     align-items: center;
 }
 
+/* área de exibição dos slides */
 .slides{
     display: block;
     width: 100%;
@@ -358,6 +370,7 @@ header h3{
     margin-top: 45px;
 }
 
+/* botões de ponto que controlam o slide ativo */
 .slideshow_navigation{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -377,20 +390,8 @@ header h3{
     margin: 0 5px;
 }
 
-.slide{
-    display: none;
-}
 
-.slide.ativo{
-    display: block;
-}
-
-
-/* ============================================================
-   SERVICOS.HTML — Estilos desktop
-   ============================================================ */
-
-/* --- Header (serviços) --- */
+/* servicos.html */
 
 header.services{
     width: 100vw;
@@ -413,7 +414,7 @@ header.schedules{
     height: auto;
 }
 
-/* --- Seção Estatísticas (serviços) --- */
+/* bloco de estatísticas numéricas */
 
 .section_statitics{
     width: 100vw;
@@ -435,6 +436,7 @@ header.schedules{
     justify-content: space-between;
 }
 
+/* cada bloco: número grande + legenda */
 .statistic{
     width: auto;
     height: auto;
@@ -455,7 +457,7 @@ header.schedules{
     color: #31110F;
 }
 
-/* --- Seção Serviços (serviços) --- */
+/* lista de serviços jurídicos */
 
 .section_services{
     width: 100vw;
@@ -491,6 +493,7 @@ header.schedules{
     color: #F7F4EB;
 }
 
+/* cada item: nome da área à esquerda, subitens à direita */
 .services_content{
     width: 80%;
     height: auto;
@@ -517,11 +520,8 @@ header.schedules{
     line-height: 1.3;
 }
 
-/* ============================================================
-   CONSULTORIAS.HTML — Estilos desktop
-   ============================================================ */
 
-/* --- Header (consultorias) --- */
+/* consultorias.html */
 
 header.consultorias{
     width: 100vw;
@@ -540,6 +540,8 @@ header.consultorias{
     padding: 0 0 0 5vw;
 }
 
+/* etapas do processo de atendimento */
+
 .our_services_section{
     width: 100vw;
     height: auto;
@@ -552,6 +554,7 @@ header.consultorias{
     place-content: center;
 }
 
+/* cada etapa: número à esquerda + texto à direita */
 .step{
     display: flex;
     flex-direction: row;
@@ -598,13 +601,10 @@ header.consultorias{
     margin-top: 20px;
 }
 
-/* ============================================================
-   RESPONSIVO — Tablet (max-width: 1024px)
-   ============================================================ */
+
+/* tablet (max-width: 1024px) */
 
 @media screen and (max-width: 1024px) {
-
-    /* --- Estilos globais --- */
 
     * {
         margin: 0;
@@ -621,8 +621,6 @@ header.consultorias{
         flex-direction: column;
         margin: 0px;
     }
-
-    /* --- Navegação --- */
 
     nav{
         width: 100%;
@@ -665,8 +663,6 @@ header.consultorias{
     li a{
         font-size: 18px;
     }
-
-    /* --- Header (index) --- */
 
     header{
         width: 100vw;
@@ -713,8 +709,6 @@ header.consultorias{
         justify-content: space-between;
     }
 
-    /* --- Seção Missão, Visão e Valores (index) --- */
-
     .section_mvv{
         width: 100vw;
         height: auto;
@@ -753,6 +747,7 @@ header.consultorias{
         font-size: 18px;    
     }
 
+    /* blocos de mvv empilham em coluna no tablet */
     .mvv_paragraphs{
         width: 100%;
         height: auto;
@@ -776,8 +771,6 @@ header.consultorias{
         font-weight: 20;
         color: black;
     }
-
-    /* --- Seção Ofertas (index) --- */
 
     .section_offering{
         width: 100vw;
@@ -829,8 +822,6 @@ header.consultorias{
         font-size: 18px;
         color: #0B1520;
     }
-
-    /* --- Seção Testemunhos (index) --- */
 
     .section_testimonials{
         width: 100vw;
@@ -924,16 +915,6 @@ header.consultorias{
         margin: 0 5px;
     }
 
-    .slide{
-        display: none;
-    }
-
-    .slide.ativo{
-        display: block;
-    }
-
-    /* --- Rodapé --- */
-
     footer{
         width: 100vw;
         height: 55vh;
@@ -959,6 +940,7 @@ header.consultorias{
         height: auto;    
     }
 
+    /* colunas de contato empilham em coluna no tablet */
     .contact_information{
         width: 80%;
         height: auto;
@@ -967,8 +949,6 @@ header.consultorias{
         justify-content: space-between;
     }
     
-    /* --- Header (serviços) --- */
-
     header.services{
         width: 100vw;
         height: 95vh;
@@ -989,8 +969,6 @@ header.consultorias{
         width: 70%;
         height: auto;
     }
-
-    /* --- Seção Estatísticas (serviços) --- */
 
     .section_statitics{
         width: 100vw;
@@ -1031,8 +1009,6 @@ header.consultorias{
         font-weight: 20;
         color: #31110F;
     }
-
-    /* --- Seção Serviços (serviços) --- */
 
     .section_services{
         width: 100vw;
@@ -1094,8 +1070,6 @@ header.consultorias{
         line-height: 1.3;
     }
 
-    /* --- Header (consultorias) --- */
-
     header.consultorias{
         width: 100vw;
         height: 95vh;
@@ -1109,13 +1083,9 @@ header.consultorias{
 }
 
 
-/* ============================================================
-   RESPONSIVO — Mobile (max-width: 767px)
-   ============================================================ */
+/* mobile (max-width: 767px) */
 
 @media screen and (max-width: 767px) {
-
-    /* --- Estilos globais --- */
 
     * {
         margin: 0;
@@ -1132,8 +1102,6 @@ header.consultorias{
         flex-direction: column;
         margin: 0px;
     }
-
-    /* --- Navegação --- */
 
     nav{
         width: 100%;
@@ -1177,8 +1145,6 @@ header.consultorias{
         font-size: 13px;
     }
 
-    /* --- Header (index) --- */
-
     header{
         width: 100vw;
         height: 75vh;
@@ -1208,6 +1174,7 @@ header.index{
         font-weight: 100;
     }
 
+    /* h3 oculto no mobile */
     header h3{
         display: none;
     }
@@ -1228,8 +1195,6 @@ header.index{
         flex-direction: row;
         justify-content: space-between;
     }
-
-    /* --- Seção Missão, Visão e Valores (index) --- */
 
     .section_mvv{
         width: 100vw;
@@ -1307,8 +1272,6 @@ header.index{
         color: black;
     }
 
-    /* --- Seção Ofertas (index) --- */
-
     .section_offering{
         width: 100vw;
         height: auto;
@@ -1320,6 +1283,7 @@ header.index{
         align-items: center;
     }
 
+    /* label e lista empilham em coluna no mobile */
     .text_subsection_offering{
         width: 80%;
         height: auto;
@@ -1336,6 +1300,7 @@ header.index{
         justify-content: space-between;
     }
 
+    /* label "o que oferecemos?" oculto no mobile */
     .offering_paragraphs_div p{
         display: none;
     }
@@ -1359,8 +1324,6 @@ header.index{
         font-size: 16px;
         color: #0B1520;
     }
-
-    /* --- Seção Testemunhos (index) --- */
 
     .section_testimonials{
         width: 100vw;
@@ -1395,6 +1358,7 @@ header.index{
         text-align: center;
     }
 
+    /* subtítulo oculto no mobile */
     .testimonials_title h2{
         display: none;
     }
@@ -1451,16 +1415,6 @@ header.index{
         margin: 0 5px;
     }
 
-    .slide{
-        display: none;
-    }
-
-    .slide.ativo{
-        display: block;
-    }
-
-    /* --- Rodapé --- */
-
     footer{
         width: 100vw;
         height: 55vh;
@@ -1494,7 +1448,6 @@ header.index{
         flex-direction: column;
         justify-content: space-between;
     }
-        /* --- Header (serviços) --- */
 
     header.services{
         width: 100vw;
@@ -1517,8 +1470,6 @@ header.index{
         height: auto;
     }
 
-    /* --- Seção Estatísticas (serviços) --- */
-
     .section_statitics{
         width: 100vw;
         height: auto;
@@ -1531,6 +1482,7 @@ header.index{
         padding: 5vh 0 5vh 0;
     }
 
+    /* estatísticas empilham em coluna no mobile */
     .statitics_content{
         width: 80%;
         height: auto;
@@ -1559,8 +1511,6 @@ header.index{
         font-weight: 20;
         color: #31110F;
     }
-
-    /* --- Seção Serviços (serviços) --- */
 
     .section_services{
         width: 100vw;
@@ -1595,6 +1545,7 @@ header.index{
         color: #F7F4EB;
     }
 
+    /* cada serviço empilha em coluna no mobile */
     .services_content{
         width: 80%;
         height: auto;
@@ -1622,8 +1573,6 @@ header.index{
         line-height: 1.3;
     }
     
-    /* --- Header (consultorias) --- */
-
     header.consultorias{
         width: 100vw;
         height: 70vh;
@@ -1646,6 +1595,7 @@ header.index{
         place-content: center;
     }
 
+    /* etapas empilham em coluna no mobile */
     .step{
         display: flex;
         flex-direction: column;

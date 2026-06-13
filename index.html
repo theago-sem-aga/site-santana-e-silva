@@ -7,7 +7,8 @@
     <title>Página Inicial</title>
 </head>
 <body>
-    
+
+    <!-- barra de navegação fixa com logo e links -->
     <nav>
         <div class="navigation">
             <img src="./image/logo.png" alt="Logo" class="logo">
@@ -18,11 +19,14 @@
         </div>
     </nav>
 
+    <!-- hero da página inicial com nome do escritório e subtítulo -->
     <header class="index">
 
+        <!-- agrupa título principal e a linha com subtítulo/data -->
         <div class="header_content">
             <h1>Sant' Ana & Silva</h1>
 
+            <!-- linha com subtítulo à esquerda e ano de fundação à direita -->
             <div class="header_subcontent">
                 <h2>Advogados e associados,<br/>agradecemos seu interesse</h2>
                 <h3>Atuando ativamente no mercado jurídico<br/>desde 2008</h3>
@@ -31,12 +35,15 @@
     
     </header>
 
+    <!-- seção de missão, visão e valores -->
     <section class="section_mvv">
 
+        <!-- wrapper do título e dos três parágrafos de MVV -->
         <div class="text_subsection_mvv">
             
             <h1>Missão, Visão e Valores</h1>
 
+            <!-- três colunas: missão, visão e valores -->
             <div class="mvv_paragraphs">
                 <div class="mvv_paragraphs_div">
                     <p>Prestar assistência jurídica especializada em diversas áreas do Direito, transformando a complexidade das leis em soluções claras e acessíveis. Nossa missão é garantir que cada cliente compreenda seus direitos e participe ativamente de sua jornada jurídica, recebendo um atendimento humano, transparente e resolutivo em todas as etapas do processo junto ao nosso grupo.</p>
@@ -50,20 +57,24 @@
             </div>
         </div>
 
+        <!-- botão que leva à página de consultorias -->
         <button class="text_subsection_mvv_button">
             <a href="consultorias.html" target="_blank">Agende uma Consulta</a>
         </button>
 
     </section>
 
+    <!-- seção com as áreas jurídicas oferecidas -->
     <section class="section_offering">
 
+        <!-- label à esquerda e lista de áreas à direita -->
         <div class="text_subsection_offering">
 
             <div class="offering_paragraphs_div" style="width: 25%;">
                 <p>O que oferecemos?</p>
             </div>
 
+            <!-- lista de especialidades e botão para a página de serviços -->
             <div class="offering_paragraphs_div" style="width: 70%;">
                 <h1 style="color: #F7F4EB;">Direito Contractual</h1>
                 <h1 style="color: #F7F4EB;">Direito Penal</h1>
@@ -79,14 +90,17 @@
 
     </section>
 
+    <!-- seção de depoimentos com carrossel -->
     <section class="section_testimonials">
 
         <div class="testimonials_div">
+            <!-- título e descrição da seção -->
             <div class="testimonials_title">
                 <h1>O que nossos clientes dizem?</h1>
                 <h2>Acreditamos na satisfação do cliente final, e que nossa qualidade pode ser medida pelos seus relatos.</h2>
             </div>
             <div class="carousel">
+                <!-- área dos slides e navegação por pontos -->
                 <div class="slides">
                     
                     <div class="slide" id="slide-1">
@@ -104,6 +118,7 @@
                         <h1>— Carlos D., Diretor Executivo</h1>
                     </div>
                     
+                    <!-- botões de ponto que trocam o slide ativo -->
                     <div class="slideshow_navigation">
                         <button class="dot" onclick="irParaSlide(0)">
                             <img src="./image/slide_point.png" alt="Slide 1">
@@ -121,12 +136,14 @@
 
     </section>
 
+<!-- rodapé com logo, contato e redes sociais -->
 <footer>
     <div class="footer_header">
         <img src="image/footer_logo.png" alt="Footer Logo">
         <p style="color: #000000; margin-bottom: 8px; text-decoration: none;">Consultoria eficiente e estratégica</p>
     </div>x
     
+    <!-- três colunas: e-mail/telefone, endereço, redes sociais -->
     <div class="contact_information">
         <div class="contact_information_div">
             <p style="color: #000000; margin-bottom: 8px; text-decoration: none;">sergiopaulosilva@adv.oabsp.org.br</p>
